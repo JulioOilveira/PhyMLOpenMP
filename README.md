@@ -1,0 +1,2 @@
+# PhyMLOpenMP
+This repository has the PhyML (version 3.0) with the calculations of maximum likelihood parallelized using the shared memory approach (with OpenMP) and at the same time, using the version parallel already consolidated in PhyML 3.0 (the version with the bootstrap replics parallelized with passing messages to distributed memory - MPI), was also constructed a version hybrid (MPI - to bootstrap replics and OpenMP - to calculations of maximum likelihood) of PhyML. In the parallelization, were considered data of DNA and proteins.
